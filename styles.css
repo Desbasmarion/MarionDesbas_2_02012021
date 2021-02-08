@@ -1,0 +1,399 @@
+@font-face
+{
+	font-family: 'Raleway';
+	src:url('Raleway-Regular.ttf');
+}
+*
+{
+    font-family: Raleway;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+ul
+{
+    list-style-type:none;
+    display: flex;
+    margin-top: 7px;
+}
+li
+{
+    padding-left: 50px;
+}
+.ancre:hover
+{
+    color: #0065FC;
+    border-top: solid;
+    border-width: 1.5px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.inscription
+{
+    color: #0065FC;
+    font-weight: bold;
+}
+#ligne1
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 0px;
+}
+h1
+{
+    font-size: medium;
+    font-weight: bold;
+}
+#sous_titre
+{
+    font-size: small;
+    margin-top: 5px;
+}
+.rechercher
+{
+    background-color: #0065FC;
+    color: white;
+    border: solid;
+    border-radius: 0 7px 7px 0;
+    margin-left: -1px;
+}
+.saisie
+{
+    border-color: #f2f2f2;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.icone_recherche
+{
+    background-color: #f2f2f2;
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #f2f2f2; 
+    border-radius: 7px 0 0 7px; 
+    object-fit: contain; 
+    margin-right: 0px;
+    padding: 10px;
+}
+.champ_recherche
+{
+    display: flex;
+    width: 340px;
+    margin-left: 0;
+}
+#bloc_filtres
+{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.filtres
+{   
+    display: flex;
+    width: 750px;
+    height: 30px;
+}
+.onglets_filtres
+{
+    display: flex;
+    align-items: center;  
+}
+.icones_filtres
+{   
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    color: #0065FC;
+    padding: 7px;
+    position: relative;
+    left: 22px;
+}
+.icone_famille
+{
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    color: #0065FC;
+    padding: 7px 10px 7px 10px;
+    position: relative;
+    left: 22px;
+}
+.intitules
+{
+    font-size: small;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-color: #DDDDDD;
+    border-width: 1.5px;
+    border-radius: 0px 20px 20px 0;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 7px;
+}
+.intitules:hover
+{
+    background-color: #4884dda9;
+    color: white;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px rgb(180, 179, 179);
+    font-weight: bold;    
+    margin: 0;
+}
+#info
+{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    margin-top: 10px;
+}
+.icone_info
+{
+    color: #0065FC;
+    border: solid #aaaaaa;
+    border-radius: 50%;
+    border-width: 1px;
+    max-height: 100%;
+    padding: 5px 10px 5px 10px;
+}
+.texte_info
+{
+    font-size: small;
+}
+#hebergements_populaires
+{
+    display: flex;
+    height: 450px;
+    margin-top: 25px;
+}
+
+#hebergements_marseille
+{
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    width: 700px;
+}
+#afficher_plus
+{
+    margin-top: -25px;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 25px;
+}
+.images_hebergements
+{
+    height: 50%;
+    width: 98%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    margin: 2px 1px 0 2px;
+}
+#plus_populaires
+{
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    width: 500px;
+}
+.liens_populaires
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.images_populaires
+{
+    height: 97%;
+    object-fit: cover;
+    width: 30%;
+    border-radius: 12px 0 0 12px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.ligne2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.fleche
+{
+    margin-right: 25px;
+}
+.noms_hotels
+{
+    font-weight: bold;
+    font-size: small;
+    
+}
+.prix_hotels
+{
+    font-size: x-small;
+}
+.descriptif_populaire
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+}
+#liens_activites
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-items: flex-start;
+   
+}
+.vignettes_activites
+{
+    box-shadow: 2px 1px 1px #DDDDDD;
+    border-radius: 15px;
+    height: 100%;
+    margin-top: 15px;
+}
+.images_activites1
+{
+    height: 90%;
+    width: 295px;
+    object-fit: cover;
+    flex-grow: 2;
+    border-radius: 15px 15px 0 0;
+    margin: 0 0 0 -5px;
+}
+.images_activites2
+{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+    height: 70%;
+    margin: 0 0 0 -5px;
+}
+.noms_activites
+{
+    font-weight: bold;
+    font-size: smaller;
+}
+h3
+{
+    font-weight: bold;
+}
+footer
+{
+    display: flex;
+    background-color: #f2f2f2;
+    margin-top: 50px;
+    margin-left: -14px;
+    margin-right: -14px;
+    padding-top: 20px;
+    height: 150px;
+}
+.colonne
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    font-size: small;
+    margin-left: 30px;
+    line-height: 5px;
+}
+.liens_marseille
+{
+    text-decoration: none;
+    color: black;
+}
+.ancre
+{
+    text-decoration: none;
+    color: black;
+}
+.liens_marseille2
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 1px 1px #DDDDDD;
+    width: 450px;
+    height: 105px;
+    align-items: flex-start;
+    margin-top: 1px;
+    margin-bottom: 15px;
+}
+.liens_marseille1
+{
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 2px  #f2f2f2;
+    width: 190px;
+    height: 150px; 
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+}
+
+.liens_hebergements
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 380px;
+}
+.bloc1
+{
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    width: 270px;
+}
+h2
+{
+    font-size: large;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.titre_activite
+{
+    margin-bottom: 0;
+    margin-left: 17px;
+}
+.liens_marseille2:hover
+{
+    box-shadow: 10px 5px 5px rgb(180, 179, 179);
+    font-weight: bold;
+}
+.vignettes_activites:hover
+{
+    box-shadow: 10px 5px 5px rgb(180, 179, 179);
+}
+.liens_marseille1:hover
+{
+    box-shadow: 10px 5px 5px rgb(180, 179, 179);
+    font-weight: bold;
+}
+.propos:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+.notation
+{
+    display: flex;
+    height: 10px;
+    width: 100px;
+}
+.etoiles
+{
+    color: #0065FC;
+    margin: 0;
+    padding: 0;
+    font-size: x-small;
+}
+.white_etoiles
+{
+    color:#cec6c6;
+    margin: 0;
+    padding: 0;
+    font-size: x-small;
+}
