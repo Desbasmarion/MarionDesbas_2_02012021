@@ -81,7 +81,6 @@ h1
     border-color: #f2f2f2;
     border-style: solid;
     border-width: 1px;
-    margin-left: 5px;
 }
 .icone_recherche
 {
@@ -112,13 +111,17 @@ h1
     display: flex;
     align-items: center;
     margin-top: 10px;
-    width: 850px;
+    width: 800px;
+}
+.titre_filtres
+{
+    width: 50px;
 }
 .filtres
 {   
     display: flex;
     justify-content: space-between;
-    margin-left: 40px;
+    margin-left: 20px;
     height: 30px;
     width: 80%;
 }
@@ -377,6 +380,8 @@ footer
     margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
+    max-width: 100%;
+    justify-content: center;
 }
 .colonne
 {
@@ -507,7 +512,7 @@ h2
         border-bottom: solid #0065FC;
         border-width: 7px;
         border-top: none;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
     #ligne1
     {
@@ -535,6 +540,7 @@ h2
         justify-content: space-around;
         border-bottom: solid #f2f2f2;
         border-width: 7px; 
+        padding-bottom: 30px;
     }
     li
     {
@@ -625,40 +631,40 @@ h2
     }
     .onglets_filtres1
     {
-        width: 310px;
+        width: 360px;
         margin-bottom: 50px;
-        height: 80px;
+        height: 120px;
         border-radius: 0 50px 50px 0;
+        border-width: 2px;
     }
     .onglets_filtres2
     {
-        width: 250px;
+        width: 300px;
         margin-bottom: 50px;
-        height: 80px;
+        height: 120px;
         border-radius: 0 50px 50px 0;
+        border-width: 2px;
     }
     .onglets_filtres3
     {
-        width: 300px;
+        width: 350px;
         margin-bottom: 50px;
-        height: 80px;
+        height: 120px;
         border-radius: 0 50px 50px 0;
+        border-width: 2px;
     }
     .onglets_filtres4
     {
-        width: 400px;
-        height: 80px;
+        width: 450px;
+        height: 120px;
         border-radius: 0 50px 50px 0;
-        position: relative;
-        right: 390px;
-        top: 130px;
-        margin-bottom: 100px;
+        border-width: 2px;
     }
     .icones_filtres
     {
-        width: 80px;
-        height: 80px;
-        font-size: 33px;
+        width: 120px;
+        height: 120px;
+        font-size: 40px;
         right: 50px;
     }
     .intitules
