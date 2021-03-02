@@ -243,6 +243,7 @@ h1
     width: 30%;
     margin: auto;
     margin-top: 15px;
+    cursor: pointer;
 }
 .descriptif_hebergements
 {
@@ -277,6 +278,7 @@ h1
 .vignettes_populaires
 {
     height: 20%;
+    cursor: pointer;
 }
 .liens_populaires
 {
@@ -346,6 +348,7 @@ h1
     height: auto;
     margin-top: 15px;
     width: 23%;
+    cursor: pointer;
 }
 .images_activites1
 {
@@ -445,6 +448,7 @@ footer
     border-radius: 15px;
     height: 250px;
     margin-top: 15px;
+    cursor: pointer;
 }
 h2
 {
@@ -538,15 +542,15 @@ h2
         width: 100%;
         padding: 0;
         justify-content: space-around;
-        border-bottom: solid #f2f2f2;
-        border-width: 7px; 
-        padding-bottom: 30px;
     }
     li
     {
         width: 50%;
         text-align: center;
         padding: 0;
+        border-bottom: solid #f2f2f2;
+        border-width: 7px; 
+        padding-bottom: 30px;
     }
     .ancre
     {
