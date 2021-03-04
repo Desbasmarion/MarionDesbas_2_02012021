@@ -393,6 +393,7 @@ footer
     font-size: small;
     max-width: 30%;
     width: 30%;
+    margin-left: auto;
 }
 .liens_marseille
 {
@@ -744,6 +745,7 @@ h2
         flex-direction: column;
         height: auto;
         margin-top: 30px;
+        width: 100%;
     }
     #hebergements_marseille
     {
@@ -902,8 +904,8 @@ h2
     {
         margin-bottom: 10px;
         max-width: 95%;
-        width: 95%;
         margin-left: 5%;
+        width: 95%;
     }
     .propos
     {
