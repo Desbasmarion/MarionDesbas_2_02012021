@@ -391,8 +391,8 @@ h3
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    max-width: 1500px;
-    justify-content: space-around;
+    max-width: 1200px;
+    justify-content: space-between;
 }
 .colonne
 {
