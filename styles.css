@@ -916,4 +916,21 @@ h2
     {
         margin-bottom: 5px;
     }
+    .onglets_filtres1:hover
+    {
+        box-shadow: none;
+    }
+    .onglets_filtres2:hover
+    {
+        box-shadow: none;
+    }
+    .onglets_filtres3:hover
+    {
+        box-shadow: none;
+        margin-bottom: 15px;
+    }
+    .onglets_filtres4:hover
+    {
+        box-shadow: none;
+    }
 }
